@@ -1,12 +1,16 @@
-{% extends "layout.html" %}
-{% block title %}Search{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
     <header>
         <div style="text-align:right;">
             <a href="imagesearch.html">image search</a>
             <a href="advancedsearch.html">advanced search</a>
         </div>
     </header>
-    {% block body %}
+    <body>
         <form action="https://www.google.com/search">
             <div class="center">
                 <input type="text" name="q" id="q">
@@ -15,4 +19,5 @@
                 <input type="submit" value="Google Search">
             </div>
         </form>
-    {% endblock %}
+    </body>
+</html>
