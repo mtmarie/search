@@ -13,8 +13,12 @@
                 justify-content: center;
                 align-items: center;
             }
-            .right {
+            .left {
                         display: flex;
-                        justify-content: right;
-                        align-items: right;
+                        justify-content: left;
+                        align-items: left;
+            }
+            .advanced-search-button {
+                        color:white;
+                        background-color:blue;
             }
