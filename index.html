@@ -13,6 +13,11 @@
             #q {
                 border-radius: 10px;
             }
+            .center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         </style>
     </head>
     <header>
@@ -23,10 +28,10 @@
     </header>
     <body>
         <form action="https://www.google.com/search">
-            <div style="margin:auto; width:50%;">
+            <div class="center">
                 <input type="text" name="q" id="q">
             </div>
-            <div style="margin:auto; width:50%;">
+            <div class="center">
                 <input type="submit" value="Google Search">
             </div>
         </form>
