@@ -8,6 +8,14 @@
             #q {
                 border-radius: 10px;
             }
+            #submit {
+                        font-weight: bold; 
+                        color:white; 
+                        background-color:#488BF9; 
+                        border-radius:2px; 
+                        border: 1px solid #3079ED; 
+                        padding: 10px;
+            }
             .center {
                 display: flex;
                 justify-content: center;
