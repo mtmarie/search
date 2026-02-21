@@ -8,12 +8,20 @@
             #q {
                 border-radius: 10px;
             }
-            #submit {
+            button {
                         font-weight: bold; 
                         color:white; 
                         background-color:#488BF9; 
                         border-radius:2px; 
                         border: 1px solid #3079ED; 
+                        padding: 10px;
+            }
+            button:hover {
+                        font-weight: bold; 
+                        color:white; 
+                        background-color:#387DEB; 
+                        border-radius:2px; 
+                        border: 1px solid #2F5BB7; 
                         padding: 10px;
             }
             .center {
