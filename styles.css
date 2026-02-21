@@ -34,3 +34,17 @@
                         justify-content: left;
                         align-items: left;
             }
+<!-- credit w3 schools for styling of flexbox-->
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+div.flex-container > div {
+  margin: 10px;
+}
+@media screen and (max-width:600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+}
