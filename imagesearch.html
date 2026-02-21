@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-            <input type="hidden" name="udm" value="2">
-        </form>
-        <a href="/search/">search</a>
-        <a href="advancedsearch.html">advanced search</a>
-    </body>
-</html>
+{% extends layout.html %}
+
+{{% block title %}}Images{{% endblock %}}
+{{% block body %}}
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <input type="submit" value="Google Search">
+        <input type="hidden" name="udm" value="2">
+    </form>
+    <a href="/search/">search</a>
+    <a href="advancedsearch.html">advanced search</a>
+{{% endblock %}}
