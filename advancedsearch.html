@@ -5,28 +5,33 @@
         <link href="styles.css" rel="stylesheet">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <div class="left">
-                all these words:
-                <input type="text" name="as_q" placeholder="All these words">
-            </div>
-            <div class="left">
-                this exact word or phrase:
-                <input type="text" name="as_epq" placeholder="This exact word or phrase">
-            </div>
-            <div class="left">
-                any of these words:
-                <input type="text" name="as_oq" placeholder="Any of these words">
-            </div>
-            <div class="left">
-                none of these words:
-                <input type="text" name="as_eq" placeholder="None of these words">
-            </div>
-            <div class="center">
-                <button type="submit" id="submit">Advanced Search</button>
-            </div>
-            <input type="hidden" name="sclient" value="img">
-        </form>
+        <div class="flex-container">
+            <form action="https://www.google.com/search">
+                <div>
+                    <div>all these words:</div>
+                    <div>this exact word or phrase:</div>
+                    <div>any of these words:</div>
+                    <div>none of these words:</div>
+                </div>
+                <div>    
+                    <div>
+                        <input type="text" name="as_q" placeholder="All these words">
+                    </div>
+                    <div>
+                        <input type="text" name="as_epq" placeholder="This exact word or phrase">
+                    </div>
+                    <div>
+                        <input type="text" name="as_oq" placeholder="Any of these words">
+                    </div>
+                    <div>
+                        <input type="text" name="as_eq" placeholder="None of these words">
+                    </div>
+                </div>
+                <div class="center">
+                    <button type="submit" id="submit">Advanced Search</button>
+                </div>
+                <input type="hidden" name="sclient" value="img">
+            </form>
         <div class="center">
             <a href="/search/">Search</a>
         </div>
